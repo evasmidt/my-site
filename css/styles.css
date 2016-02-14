@@ -1,0 +1,312 @@
+
+	*, *:before, *:after {
+  	-webkit-box-sizing: border-box; 
+ 	-moz-box-sizing: border-box;
+ 	box-sizing: border-box;
+	}
+
+
+	#container{
+		width:100%;
+		/*border:1px solid red;*/
+		display: block;
+		padding: 0px;
+		margin-left: 0px;
+		background-color:white;
+		/*font-size: 2ems;*/
+	}
+
+	/*just testing this out*/
+	#header { 
+		/*z-index: 1;
+		position: fixed;*/
+		width:100%;
+		margin-top: -20px;
+	}
+
+	#hero{
+  		/*background-image: url("images/desk.jpeg");*/
+  		width:100%;
+		color:#F1F1F1;
+	}
+
+	#hero img{
+		max-width: 100%;
+		max-height: 100%;
+		margin:auto;
+		display: block;
+	}
+
+	#hero h3{
+		
+		display: inline;	
+	}
+
+	#hero div{
+		display:inline;
+
+	}
+
+	/*.hero img{
+		min-width: 1255px;
+		max-height: 400px;
+	}*/
+/*.hero img{
+	position: absolute;
+	clip: rect (0px, 60px, 200px, 0px);
+	clip: inherit;
+}*/
+
+	.content-area {
+		max-width: 720px;
+		margin:auto;
+		padding: 10px 10px 20px 10px;
+
+	}
+
+	.first-panel{
+		/*background-color: black;*/
+		width:100%;
+		/*font-size: 2ems;*/
+	}
+
+	.second-panel{
+		background-color: #bdc3c7;
+		width:100%;
+		margin:auto;
+		position:relative;
+	}
+
+
+	.third-panel{
+		background-color: white;
+		width:100%;
+		margin:auto;
+	}
+
+
+	.fourth-panel{
+		background-image: url("images/brickwall_@2X.png");
+		width:100%;
+		margin:auto;
+		max-height:400px;
+	}
+
+
+
+	/*#contact{
+		visibility: hidden;
+	}
+*/
+
+	a {
+		color: #13c1f1;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #008EBE;
+		text-decoration: none;
+	}
+
+	li a{
+		color: #9b59b6;
+	}
+
+	li a:hover{
+		color: #8e44ad;
+	}
+
+	body {
+		color: #445544;
+		background-image: url("images/congruent_outline.png");
+	}
+
+	/*article {
+		
+	}*/
+
+	h1 {
+		color: #2ecc71;
+		text-align: center;
+		margin: 0;
+		padding: 20px;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+
+
+	h1 a {
+		color: #2ecc71;
+	}
+
+	h1 a:hover {
+		color:#27ae60;
+		text-decoration: none;
+	}
+	
+	h2 {
+		font-size:1.5rem;
+		color: #2ecc71;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+
+	h3{
+		font-family: 'Josefin Sans', sans-serif;
+		color: #1abc9c;
+	}	
+
+	ul {
+		margin: 0px;
+	}
+
+	li {
+		color: #2c3e50;
+		font-family: 'Playfair Display', serif;
+		line-height: 120%;
+		letter-spacing: 1.5px;
+	}
+
+	nav {
+		z-index: 1;
+		background-color: #F1F1F1;
+		opacity:0.8;
+		text-align: center;
+		position:fixed;
+		width:100%;
+		
+	}
+
+	nav h1 {
+		color: #fff;
+		display: inline-block;
+		float:left;
+		/*margin-left:-1000px;*/
+		font-family: 'Flamenco', cursive;
+		font-size:2em;
+		padding-right:0px;
+		padding-bottom:0px;
+		padding-top:0px;
+		margin-top: 30px;
+		margin-left: 20px;
+		margin-bottom:15px;
+
+	}
+
+	nav ul{
+		padding:0;
+		margin:0;
+	}
+
+	nav li {
+		display: inline-block;
+		padding: 1rem;
+		font-family: 'Istok Web', sans-serif;
+		font-size:20px;
+		margin-top: 30px;
+		margin-bottom:15px;
+		padding-top: 5px;
+		padding-bottom:0px;
+
+	}
+
+
+	p {
+		color: #2c3e50;
+		font-family: 'Playfair Display', serif;
+		font-size:15px;
+		line-height: 150%;
+		letter-spacing: 1.5px;
+		
+	}
+
+	/*img {
+	width:100%;
+	max-width:300px;
+	}*/
+
+	/*section {
+		float:right;
+		width: 70%;
+		margin-right:10px;
+
+	}*/
+
+	form {
+		/*min-height: 500px;*/
+	}
+
+.btn {
+  background: #3498db;
+  /*background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);*/
+  /*-webkit-border-radius: 28;
+  -moz-border-radius: 28;*/
+  border-radius: 28px;
+  font-family: 'Istok Web', Arial, sans-serif;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  /*background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);*/
+  text-decoration: none;
+  color:#ffffff;
+}
+
+	footer {
+		clear:both;
+		text-align: center;
+		background-color: #ecf0f1;
+	}
+
+	footer h2 {
+		padding-top: 20px;
+		color: white;
+		font-size: 2em;
+		margin:auto;
+	}
+	footer li {
+		display: inline-block;
+		padding: 10px;
+	}
+
+
+
+ 
+ 
+
+
+@font-face {
+    font-family: 'sinkin_sans400_regular';
+    src: url('sinkinsans_400regular_macroman/SinkinSans-400Regular-webfont.eot');
+    src: url('sinkinsans_400regular_macroman/SinkinSans-400Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sinkinsans_400regular_macroman/SinkinSans-400Regular-webfont.woff') format('woff'),
+         url('sinkinsans_400regular_macroman/SinkinSans-400Regular-webfont.ttf') format('truetype'),
+         url('sinkinsans_400regular_macroman/SinkinSans-400Regular-webfont.svg#sinkin_sans400_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sinkin_sans500_medium';
+    src: url('sinkinsans_500medium_macroman/SinkinSans-500Medium-webfont.eot');
+    src: url('sinkinsans_500medium_macroman/SinkinSans-500Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sinkinsans_500medium_macroman/SinkinSans-500Medium-webfont.woff') format('woff'),
+         url('sinkinsans_500medium_macroman/SinkinSans-500Medium-webfont.ttf') format('truetype'),
+         url('sinkinsans_500medium_macroman/SinkinSans-500Medium-webfont.svg#sinkin_sans500_medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
